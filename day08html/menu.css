@@ -1,0 +1,17 @@
+.menu>li {
+    display: inline;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.menuitem {
+    margin-right: 10px;
+    margin-bottom: 0px black solid;
+    transition-property: margin-bottom;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+
+.menuitem:hover {
+    margin-bottom: 10px black solid;
+}
